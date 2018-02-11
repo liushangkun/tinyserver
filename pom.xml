@@ -37,13 +37,6 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.aliyun.odps</groupId>
-            <artifactId>odps-sdk-udf</artifactId>
-            <version>0.20.7</version>
-        </dependency>
-
-
         <!-- commons-lang -->
         <dependency>
             <groupId>org.apache.commons</groupId>
