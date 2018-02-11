@@ -81,6 +81,7 @@
 
     <!-- Package as an executable jar -->
     <build>
+        <finalName>tinyserver</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
