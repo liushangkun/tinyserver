@@ -94,6 +94,12 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <executable>true</executable>
+                    <embeddedLaunchScriptProperties>
+                        <logFolder>/home/admin/logs</logFolder>
+                        <logFilename>tinyserver.log</logFilename>
+                        <pidFolder>/home/admin/logs</pidFolder>
+                        <pidFilename>tinyserver.pid</pidFilename>
+                    </embeddedLaunchScriptProperties>
                 </configuration>
             </plugin>
         </plugins>
