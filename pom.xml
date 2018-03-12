@@ -42,6 +42,11 @@
             <optional>true</optional>
         </dependency>
 
+        <!-- production -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
         <!-- commons-lang -->
         <dependency>
             <groupId>org.apache.commons</groupId>

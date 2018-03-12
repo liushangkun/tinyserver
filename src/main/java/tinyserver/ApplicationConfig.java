@@ -20,8 +20,7 @@ public class ApplicationConfig implements EnvironmentAware {
 
     @Override
     public void setEnvironment(Environment env) {
-        logger.info("EnvironmentAware callback");
-        logger.info("APP_NAME : " + env.getProperty("APP_NAME"));
+
     }
 
     @Bean
