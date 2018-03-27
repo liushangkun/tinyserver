@@ -4,6 +4,7 @@
 # eclipse project info
 .project
 .classpath
+.settings/
 
 # maven build target
 

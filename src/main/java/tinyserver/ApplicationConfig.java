@@ -4,6 +4,7 @@ import javax.sql.DataSource;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.EnvironmentAware;
@@ -14,6 +15,7 @@ import org.springframework.core.env.Environment;
 import com.alibaba.druid.pool.DruidDataSource;
 
 @Configuration
+@MapperScan("tinyserver.mapper")
 public class ApplicationConfig implements EnvironmentAware {
 
     private static Logger logger = LoggerFactory.getLogger(ApplicationConfig.class);
